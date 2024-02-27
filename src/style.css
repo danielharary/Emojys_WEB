@@ -1,0 +1,17 @@
+.wrapper {
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+}
+
+.emoji {
+  border: 40px solid black;
+  padding: 20px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.emoji:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
